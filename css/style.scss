@@ -634,12 +634,14 @@ header {
     }
     //fix the svg filter on touch devices
     .filter-grain {
-        opacity: 0.3;
-        mix-blend-mode: normal;
+        // opacity: 0.3;
+        // mix-blend-mode: normal;
+        display: none;
     }
     //remove the blur to reduce lag performance
     .filter-blur {
         -webkit-backdrop-filter: blur(0px);
                 backdrop-filter: blur(0px);
+        display: none;
     }
   }

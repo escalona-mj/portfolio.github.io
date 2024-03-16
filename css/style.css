@@ -527,12 +527,12 @@ header #hamburger {
     display: none;
   }
   .filter-grain {
-    opacity: 0.3;
-    mix-blend-mode: normal;
+    display: none;
   }
   .filter-blur {
     -webkit-backdrop-filter: blur(0px);
     backdrop-filter: blur(0px);
+    display: none;
   }
 }
 
