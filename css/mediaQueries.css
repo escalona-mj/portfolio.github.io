@@ -14,7 +14,7 @@
   header .nav, header.is-glass .nav {
     position: absolute;
     top: 120%;
-    right: 0%;
+    right: -200px;
     transition: all 0.4s ease;
     -webkit-backdrop-filter: var(--glass-blur-filter);
     backdrop-filter: var(--glass-blur-filter);
@@ -35,7 +35,7 @@
     flex-direction: row-reverse;
   }
   header .open, header.is-glass .open {
-    right: -200px;
+    right: 0px;
   }
 }
 

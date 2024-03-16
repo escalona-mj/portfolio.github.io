@@ -531,8 +531,8 @@ header #hamburger {
     mix-blend-mode: normal;
   }
   .filter-blur {
-    -webkit-backdrop-filter: blur(0.6px);
-    backdrop-filter: blur(0.6px);
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
   }
 }
 

@@ -637,9 +637,9 @@ header {
         opacity: 0.3;
         mix-blend-mode: normal;
     }
-    //adjust the blur
+    //remove the blur to reduce lag performance
     .filter-blur {
-        -webkit-backdrop-filter: blur(0.6px);
-                backdrop-filter: blur(0.6px);
+        -webkit-backdrop-filter: blur(0px);
+                backdrop-filter: blur(0px);
     }
   }
