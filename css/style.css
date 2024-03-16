@@ -526,6 +526,14 @@ header #hamburger {
   .cursor {
     display: none;
   }
+  .filter-grain {
+    opacity: 0.3;
+    mix-blend-mode: normal;
+  }
+  .filter-blur {
+    -webkit-backdrop-filter: blur(0.6px);
+    backdrop-filter: blur(0.6px);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

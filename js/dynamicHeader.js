@@ -1,28 +1,26 @@
-
-
-console.log(document.getElementById('navbar'));
 //change the color of the header when reaching a certain point of the website
 function updateStyles() {
+    var header = document.getElementById('navbar');
     if (window.scrollY > 20) {
-        document.getElementById('navbar').classList.add("is-glass");
-        document.getElementById('navbar').style.padding = '1em';
+        header.classList.add("is-glass");
+        header.style.padding = '1em';
 
         if (window.innerWidth >= 1090) {
-            document.getElementById('navbar').style.margin = '1em 18em';
+            header.style.margin = '1em 18em';
             console.log("on PC");
         } else {
-            document.getElementById('navbar').style.margin = '1em';
+            header.style.margin = '1em';
             console.log("on phone");
         }
 
     } else {
-        document.getElementById('navbar').classList.remove("is-glass");
-        document.getElementById('navbar').style.margin = '1em';
+        header.classList.remove("is-glass");
+        header.style.margin = '1em';
 
         if (window.innerWidth >= 910) {
-            document.getElementById('navbar').style.padding = '1em 3em';
+            header.style.padding = '1em 3em';
         } else {
-            document.getElementById('navbar').style.padding = '1em';
+            header.style.padding = '1em';
         }
 
     }
