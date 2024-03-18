@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @font-face {
   font-family: "Batangas";
-  src: url("https://raw.githubusercontent.com/escalona-mj/portfolio.github.io/main/fonts/Batangas.otf") format("truetype");
+  src: url("fonts/Batangas.otf") format("truetype");
   font-style: bold;
 }
 :root {
@@ -32,7 +32,7 @@
 
 body {
   color: var(--primary-text-color);
-  background-image: url("https://raw.githubusercontent.com/escalona-mj/portfolio.github.io/main/images/bg/hero.jpg");
+  background-image: url("images/bg/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -535,8 +535,8 @@ header #hamburger {
     backdrop-filter: blur(0.6px);
   }
   .is-glass {
-    -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(3px) saturate(180%);
+    backdrop-filter: blur(3px) saturate(180%);
   }
 }
 
