@@ -527,8 +527,7 @@ header #hamburger {
     display: none;
   }
   .filter-grain {
-    opacity: 0.25;
-    mix-blend-mode: normal;
+    display: none;
   }
   .filter-blur {
     display: none;

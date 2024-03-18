@@ -634,9 +634,9 @@ header {
     }
     //fix the svg filter on touch devices
     .filter-grain {
-        opacity: 0.25;
-        mix-blend-mode: normal;
-        // display: none;
+        // opacity: 0.25;
+        // mix-blend-mode: normal;
+        display: none;
     }
     //remove the blur to reduce lag performance
     .filter-blur {
