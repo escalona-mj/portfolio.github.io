@@ -447,7 +447,6 @@ header {
                     font-size: 1.5em;
                 }
 
-
                 .v-wrapper {
                     display: flex;
                     flex-direction: column;
@@ -456,9 +455,9 @@ header {
                     font-weight: 550;
 
                     .progress-line span::after {
-                        position: fixed;
+                        position: absolute;
                         top: -30px;
-                        right: 0;
+                        left: 100%;
                         opacity: 0.5;
                         font-family: Overpass Mono;
                     }
@@ -480,7 +479,7 @@ header {
                     }
 
                     .progress-line.react span::after {
-                        content: '0%'
+                        content: ''
                     }
                     
                     .progress-line {

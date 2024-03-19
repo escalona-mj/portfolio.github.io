@@ -390,9 +390,9 @@ header #hamburger {
   font-weight: 550;
 }
 .about-section .about-card .skill-bars .h-wrapper .v-wrapper .progress-line span::after {
-  position: fixed;
+  position: absolute;
   top: -30px;
-  right: 0;
+  left: 100%;
   opacity: 0.5;
   font-family: Overpass Mono;
 }
@@ -409,7 +409,7 @@ header #hamburger {
   content: "30%";
 }
 .about-section .about-card .skill-bars .h-wrapper .v-wrapper .progress-line.react span::after {
-  content: "0%";
+  content: "";
 }
 .about-section .about-card .skill-bars .h-wrapper .v-wrapper .progress-line {
   height: 6px;
